@@ -1,0 +1,16 @@
+PODS:
+  - UIViewUtilities (0.1.0)
+
+DEPENDENCIES:
+  - UIViewUtilities (from `../`)
+
+EXTERNAL SOURCES:
+  UIViewUtilities:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UIViewUtilities: ec006cfb8edc0fad932b1ec17e201fbc313cda8d
+
+PODFILE CHECKSUM: 04502a45c025f9190fc59b869b1792b6dfea4932
+
+COCOAPODS: 1.11.3
