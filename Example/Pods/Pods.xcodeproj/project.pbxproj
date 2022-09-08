@@ -17,7 +17,7 @@
 		A22EC32805877AAD08811F6B166C9C80 /* Pods-UIViewUtilities_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3019AFC691DCD7E9EADE37DD8ACDC66 /* Pods-UIViewUtilities_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C16D0F3E2DBDB9FD916F8F9DF0AA1570 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C4F0237ACCAF069D328E8738FEFEB829 /* Pods-UIViewUtilities_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5082F1989DFF3F7251BEF057035B45 /* Pods-UIViewUtilities_Example-dummy.m */; };
-		D2F17DAB28CA163B008DE3CB /* UIView_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F17DAA28CA163B008DE3CB /* UIView_Extension.swift */; };
+		D2F17DAD28CA260A008DE3CB /* UIView_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F17DAC28CA260A008DE3CB /* UIView_Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +64,7 @@
 		BE78F554B20C5509BAA6E260D68D9C12 /* UIViewUtilities.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = UIViewUtilities.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BF4621A2654FA4568FA1F8A22999BE6A /* UIViewUtilities-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewUtilities-dummy.m"; sourceTree = "<group>"; };
 		CCADDC89160697673BDC781FE34E6B3C /* Pods-UIViewUtilities_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UIViewUtilities_Tests"; path = Pods_UIViewUtilities_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2F17DAA28CA163B008DE3CB /* UIView_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView_Extension.swift; sourceTree = "<group>"; };
+		D2F17DAC28CA260A008DE3CB /* UIView_Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIView_Extension.swift; path = UIViewUtilities/Classes/UIView_Extension.swift; sourceTree = "<group>"; };
 		D5A1EE0FF7E17F6AF31D0AD7696EA6D0 /* Pods-UIViewUtilities_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIViewUtilities_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DF9FBC8CEF5D6C5EEF8FB76E9CA2AB4C /* Pods-UIViewUtilities_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIViewUtilities_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E39B3E178D8BD7D8D5FD29A3BB66CABF /* UIViewUtilities-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewUtilities-prefix.pch"; sourceTree = "<group>"; };
@@ -199,9 +199,9 @@
 			isa = PBXGroup;
 			children = (
 				5B0BCA1BCB0D5073273ED62E08946A98 /* ReplaceMe.swift */,
+				D2F17DAC28CA260A008DE3CB /* UIView_Extension.swift */,
 				37CCC270DD6EF44BFD1DBCCCCF75B76B /* Pod */,
 				672FE0D25B41A79166A9602C7AE256F4 /* Support Files */,
-				D2F17DAA28CA163B008DE3CB /* UIView_Extension.swift */,
 			);
 			name = UIViewUtilities;
 			path = ../..;
@@ -388,7 +388,7 @@
 			files = (
 				59233E484B3875B6BC8E1E6B3E699AE1 /* ReplaceMe.swift in Sources */,
 				3A2345168FADD98F973D2E1B4956A3C6 /* UIViewUtilities-dummy.m in Sources */,
-				D2F17DAB28CA163B008DE3CB /* UIView_Extension.swift in Sources */,
+				D2F17DAD28CA260A008DE3CB /* UIView_Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
