@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/shahsaumil20011991@gmail.com/UIViewUtilities'
+  s.homepage         = 'https://github.com/shahsaumil2001/UIViewUtilities'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'shahsaumil20011991@gmail.com' => '56787966+shahsaumil2001@users.noreply.github.com' }
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'UIViewUtilities/**/*'
+  s.source_files = 'UIViewUtilities/Classes/**/*'
   
   # s.resource_bundles = {
   #   'UIViewUtilities' => ['UIViewUtilities/Assets/*.png']
