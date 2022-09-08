@@ -20,10 +20,6 @@ it, simply add the following line to your Podfile:
 pod 'UIViewUtilities'
 ```
 
-## Author
-
-shahsaumil20011991@gmail.com, 56787966+shahsaumil2001@users.noreply.github.com
-
 ## License
 
 UIViewUtilities is available under the MIT license. See the LICENSE file for more info.
