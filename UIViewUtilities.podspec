@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'UIViewUtilities/Classes/**/*'
+  s.source_files = 'UIViewUtilities/**/*'
   
   # s.resource_bundles = {
   #   'UIViewUtilities' => ['UIViewUtilities/Assets/*.png']
