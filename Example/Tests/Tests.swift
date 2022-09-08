@@ -2,9 +2,10 @@ import XCTest
 import UIViewUtilities
 
 class Tests: XCTestCase {
-    
+    var view = UIView()
     override func setUp() {
         super.setUp()
+        view.addCornerRadius()
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
