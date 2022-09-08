@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UIViewUtilities'
-  s.version          = '0.0.2'
-  s.summary          = 'A short description of UIViewUtilities.'
+  s.version          = '0.0.3'
+  s.summary          = ' The summary is meaningful of UIViewUtilities.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'shahsaumil20011991@gmail.com' => '56787966+shahsaumil2001@users.noreply.github.com' }
   s.source           = { :git => 'https://github.com/shahsaumil2001/UIViewUtilities.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.swift_version = "5.0"
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'UIViewUtilities/Classes/**/*'
