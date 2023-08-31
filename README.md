@@ -20,7 +20,7 @@ it, simply add the following line to your Podfile:
 pod 'UIViewUtilities'
 ```
 ## features
-# CornerRadius on UIView
+1. CornerRadius on UIView
     public func addCornerRadius(_ radius: CGFloat = 16) {
         layer.cornerRadius = radius
         layer.masksToBounds = true
