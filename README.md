@@ -20,11 +20,13 @@ it, simply add the following line to your Podfile:
 pod 'UIViewUtilities'
 ```
 ## features
-### CornerRadius on UIView
+### 1. CornerRadius on UIView
     public func addCornerRadius(_ radius: CGFloat = 16) {
         layer.cornerRadius = radius
         layer.masksToBounds = true
     }
+https://github.com/shahsaumil2001/Swift-UIViewUtilities/assets/56787966/d36d23a1-8384-402a-9dfc-3735384edb25
+
 
 ## License
 
