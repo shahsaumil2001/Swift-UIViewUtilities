@@ -19,6 +19,12 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'UIViewUtilities'
 ```
+## features
+# CornerRadius on UIView
+    public func addCornerRadius(_ radius: CGFloat = 16) {
+        layer.cornerRadius = radius
+        layer.masksToBounds = true
+    }
 
 ## License
 
