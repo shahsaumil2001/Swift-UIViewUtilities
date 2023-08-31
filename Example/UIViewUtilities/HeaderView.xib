@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="HeaderView" id="xhw-OP-LD2" customClass="HeaderView" customModule="UIViewUtilities_Example" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Ad-0f-pVX">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="200"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6yX-ey-Ubz">
+                            <rect key="frame" x="20" y="20" width="440" height="160"/>
+                            <color key="backgroundColor" red="0.78823529411764703" green="0.90196078431372551" blue="0.99215686274509807" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.92156863212585449" green="0.94509804248809814" blue="0.98039215803146362" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="6yX-ey-Ubz" firstAttribute="leading" secondItem="3Ad-0f-pVX" secondAttribute="leading" constant="20" id="Djd-6I-SnR"/>
+                        <constraint firstAttribute="bottom" secondItem="6yX-ey-Ubz" secondAttribute="bottom" constant="20" id="Xlm-fo-fy0"/>
+                        <constraint firstAttribute="trailing" secondItem="6yX-ey-Ubz" secondAttribute="trailing" constant="20" id="gK3-qq-1fx"/>
+                        <constraint firstItem="6yX-ey-Ubz" firstAttribute="top" secondItem="3Ad-0f-pVX" secondAttribute="top" constant="20" id="oAI-mE-znJ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="caM-UQ-bET"/>
+            <color key="backgroundColor" red="0.92156863212585449" green="0.94509804248809814" blue="0.98039215803146362" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="3Ad-0f-pVX" firstAttribute="top" secondItem="xhw-OP-LD2" secondAttribute="top" id="2Oj-1C-RMf"/>
+                <constraint firstAttribute="trailing" secondItem="3Ad-0f-pVX" secondAttribute="trailing" id="Ag3-FO-goV"/>
+                <constraint firstItem="3Ad-0f-pVX" firstAttribute="leading" secondItem="xhw-OP-LD2" secondAttribute="leading" id="fuK-M1-POt"/>
+                <constraint firstAttribute="bottom" secondItem="3Ad-0f-pVX" secondAttribute="bottom" id="rtp-oy-1cV"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="effectView" destination="6yX-ey-Ubz" id="mOM-Q7-TvN"/>
+                <outlet property="mainView" destination="3Ad-0f-pVX" id="ybh-8i-HN3"/>
+            </connections>
+            <point key="canvasLocation" x="88.405797101449281" y="143.30357142857142"/>
+        </view>
+    </objects>
+</document>

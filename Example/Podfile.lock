@@ -1,5 +1,5 @@
 PODS:
-  - UIViewUtilities (0.1.0)
+  - UIViewUtilities (0.0.4)
 
 DEPENDENCIES:
   - UIViewUtilities (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  UIViewUtilities: ec006cfb8edc0fad932b1ec17e201fbc313cda8d
+  UIViewUtilities: d53a302ec620e138aa971aa71d8cb760f587da2e
 
 PODFILE CHECKSUM: 04502a45c025f9190fc59b869b1792b6dfea4932
 

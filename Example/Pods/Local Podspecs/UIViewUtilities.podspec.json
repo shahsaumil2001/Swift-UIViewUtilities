@@ -1,9 +1,9 @@
 {
   "name": "UIViewUtilities",
-  "version": "0.1.0",
-  "summary": "A short description of UIViewUtilities.",
+  "version": "0.0.4",
+  "summary": "There is extension View of UIViewUtilities. This is very meaningful.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/shahsaumil20011991@gmail.com/UIViewUtilities",
+  "homepage": "https://github.com/shahsaumil2001/UIViewUtilities",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,13 @@
     "shahsaumil20011991@gmail.com": "56787966+shahsaumil2001@users.noreply.github.com"
   },
   "source": {
-    "git": "https://github.com/shahsaumil20011991@gmail.com/UIViewUtilities.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/shahsaumil2001/UIViewUtilities.git",
+    "tag": "0.0.4"
   },
+  "swift_versions": "5.0",
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "UIViewUtilities/Classes/**/*"
+  "source_files": "UIViewUtilities/Classes/**/*",
+  "swift_version": "5.0"
 }
