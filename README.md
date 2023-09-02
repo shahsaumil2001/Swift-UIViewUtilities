@@ -28,9 +28,9 @@ pod 'UIViewUtilities'
 
 ### 2. BorderColor on UIView
  public func borderColor(width: CGFloat, color: UIColor, clipToBounds: Bool = true) {
-        self.layer.borderWidth = width
-        self.layer.borderColor = color.cgColor
-        self.clipsToBounds = clipToBounds
+    self.layer.borderWidth = width
+    self.layer.borderColor = color.cgColor
+    self.clipsToBounds = clipToBounds
  }
 
 ### 3. RoundRect All Sides on UIView
