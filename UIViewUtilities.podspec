@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UIViewUtilities'
-  s.version          = '0.0.5'
+  s.version          = '0.0.7'
   s.summary          = ' There is extension View of UIViewUtilities. This is very helpful.'
 
 # This description is used to generate tags and improve search results.
