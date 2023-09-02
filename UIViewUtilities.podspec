@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UIViewUtilities'
-  s.version          = '0.0.4'
-  s.summary          = ' There is extension View of UIViewUtilities. This is very meaningful.'
+  s.version          = '0.0.5'
+  s.summary          = ' There is extension View of UIViewUtilities. This is very helpful.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
